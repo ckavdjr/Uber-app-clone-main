@@ -15,11 +15,11 @@ userRouter.post("/register", async (req, res) => {
   let existedUser = await UserModel.findOne({ email });
   try {
     if (existedUser) {
-      res.status(400).json({ msg: "User already exist, please login" });
+      res.status(400).json({ msg: "User already exists, please login!" });
     } else {
       bcrypt.hash(password, 5, async (err, hash) => {
         if (err) {
-          res.status(400).json({ msg: "something wrong" });
+          res.status(400).json({ msg: "Something wrong" });
         } else {
           let newUser = new UserModel({
             name,
@@ -27,7 +27,7 @@ userRouter.post("/register", async (req, res) => {
             password: hash,
           });
           await newUser.save();
-          res.status(200).json({ msg: "new user has been added" });
+          res.status(200).json({ msg: "New user has been added!" });
         //   const token = jwt.sign({ userID: users._id }, process.env.secret);
         // res.json({
         //   msg: "Driver has been registered",
@@ -52,7 +52,7 @@ userRouter.post("/login", async (req, res) => {
           const token = jwt.sign({ data: "data" }, process.env.secret);
           res
             .status(200)
-            .json({ msg: "You are successfully Logged In!!", token: token, email:email , name:name});
+            .json({ msg: "You are successfully logged in!", token: token, email:email , name:name});
             
         } else {
           res.status(400).json({ msg: "You are not authorized" });
@@ -67,7 +67,7 @@ userRouter.post("/login", async (req, res) => {
 });
 
 
-// we ll need a get users detials route too  
+// we'll need a get users detials route too  
 //tp 
 userRouter.get("/userdetails", async (req, res) => {
   try {

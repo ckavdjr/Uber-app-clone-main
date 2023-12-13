@@ -22,9 +22,9 @@ app.listen(port, async (req, res) => {
     await connected;
     await connection1;
     console.log("db is connected");
-    console.log(`Surver is running at ${port}`);
+    console.log(`Server is running at ${port}`);
   } catch (error) {
     console.log(error);
-    console.log("there is something wrong with this");
+    console.log("There is something wrong");
   }
 });

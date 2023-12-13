@@ -10,13 +10,13 @@ const auth = (req, res, next) => {
         req.body.driver = decoded.driver;
         next();
       } else {
-        res.json({ msg: "Not authorizes" });
+        res.json({ msg: "Not Authorized" });
       }
     } catch (err) {
       res.json({ error: err.message });
     }
   } else {
-    res.json({ msg: "please Login!!" });
+    res.json({ msg: "Please Login!!" });
   }
 };
 
