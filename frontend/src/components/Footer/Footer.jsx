@@ -75,74 +75,7 @@ const Footer = () => {
       // </footer>
 
       <>
-    <div className="bottom">
-    <div className="footer">
-        <ul>
-            <li>
-                <h3>Company</h3>
-                <Link to="#">About us</Link><br/>
-                <Link to="#">Our offerings</Link><br/>
-                <Link to="#">Newsroom</Link><br/>
-                <Link to="#">Investors</Link><br/>
-                <Link to="#">Blog</Link><br/>
-                <Link to="#">Careers</Link><br/>
-                <Link to="#">Gift cards</Link>
-            </li>   
-        </ul>
-
-        <ul>
-            <li>
-                <h3>Products</h3>
-                <Link to="#">Ride</Link><br/>
-                <Link to="#">Drive</Link><br/>
-                <Link to="#">Deliver</Link><br/>
-                <Link to="#">Press</Link><br/>
-                <Link to="#">Eat</Link><br/>
-                <Link to="#">Uber for Business</Link><br/>
-                <Link to="#">Uber Freight</Link>
-            </li>   
-        </ul>
-
-        <ul>
-            <li>
-                <h3>Global citizenship</h3>
-                <Link to="#">Safety</Link><br/>
-                <Link to="#">Diversity and Inclusion</Link><br/>
-                <Link to="#">Sustainability</Link><br/>
-                <Link to="#">Accessibility</Link><br/>
-                <Link to="#">Testimonials</Link><br/>
-                <Link to="#">Safety Toolkit</Link><br/>
-                <Link to="#">FAQs</Link>
-            </li>   
-        </ul>
-
-        <ul>
-            <li>
-                <h3>Travel</h3>
-                <Link to="#">Airports</Link><br/>
-                <Link to="#">Cities</Link><br/>
-                {/* <Link to="#">Authenticity</Link><br/>
-                <Link to="#">Press</Link><br/>
-                <Link to="#">Testimonials</Link><br/>
-                <Link to="#">Zara CSR</Link><br/>
-                <Link to="#">Investor Relations</Link> */}
-            </li>   
-        </ul>
-
-        {/* <ul>
-            <li>
-                <h3>Top Categories</h3><br/>
-                <Link to="#">Who are we?</Link><br/>
-                <Link to="#">Careers</Link><br/>
-                <Link to="#">Authenticity</Link><br/>
-                <Link to="#">Press</Link><br/>
-                <Link to="#">Testimonials</Link><br/>
-                <Link to="#">Zara CSR</Link><br/>
-                <Link to="#">Investor Relations</Link>
-            </li>   
-        </ul> */}
-    </div>
-</div>
+    
 
       
     </>

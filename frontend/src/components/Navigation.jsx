@@ -46,11 +46,11 @@ let username;
   
           <Navbar.Collapse id="responsive-navbar-nav">  
             <Nav className="me-auto">  
-            <Nav.Link href="/" color="white">Home</Nav.Link>
+            
               <Nav.Link href="/ride" color="white">Ride</Nav.Link>  
-              <Nav.Link href="/eat" color="light">UberEat</Nav.Link>
+              
               <Nav.Link href="/driver">Driver</Nav.Link> 
-              <Nav.Link href="/buisness">Buisness</Nav.Link> 
+              
           
 
               {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">  
